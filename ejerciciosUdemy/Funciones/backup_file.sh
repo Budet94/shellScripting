@@ -13,5 +13,5 @@ backup_file /etc/host
 if [[ $? -eq 0 ]]; then
   #statements
   echo "Backup Succeded!"
-  return 1
+  return 1 
 fi
